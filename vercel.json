@@ -1,12 +1,21 @@
 {
   "functions": {
-    "api/**/*.php": {
-      "runtime": "vercel-community-php@0.1.4"
-    },
     "*.php": {
       "runtime": "vercel-community-php@0.1.4"
     },
-    "**/*.php": {
+    "views/**/*.php": {
+      "runtime": "vercel-community-php@0.1.4"
+    },
+    "models/**/*.php": {
+      "runtime": "vercel-community-php@0.1.4"
+    },
+    "cpanel/**/*.php": {
+      "runtime": "vercel-community-php@0.1.4"
+    },
+    "libs/**/*.php": {
+      "runtime": "vercel-community-php@0.1.4"
+    },
+    "handle/**/*.php": {
       "runtime": "vercel-community-php@0.1.4"
     }
   },
