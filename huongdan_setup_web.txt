@@ -1,0 +1,3 @@
+config database tại config.php
+web sử dụng php version 8.1
+tạo key captcha v2 tại https://www.google.com/recaptcha/admin/create?utm_source

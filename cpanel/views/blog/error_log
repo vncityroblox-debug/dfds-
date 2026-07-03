@@ -1,0 +1,8 @@
+[15-Apr-2025 21:04:19 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/fxjnlxs/public_html/classes/classdb.php on line 617
+[15-Apr-2025 21:04:56 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/fxjnlxs/public_html/classes/classdb.php on line 617
+[15-Apr-2025 21:05:06 Asia/Ho_Chi_Minh] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fxjnlxs/public_html/classes/db.php on line 40
+[15-Apr-2025 21:05:09 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/fxjnlxs/public_html/classes/classdb.php on line 617
+[15-Apr-2025 21:05:14 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/fxjnlxs/public_html/classes/classdb.php on line 617
+[15-Apr-2025 21:05:34 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/fxjnlxs/public_html/classes/classdb.php on line 617
+[15-Apr-2025 21:06:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/fxjnlxs/public_html/classes/classdb.php on line 617
+[15-Apr-2025 21:10:10 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/fxjnlxs/public_html/classes/classdb.php on line 617

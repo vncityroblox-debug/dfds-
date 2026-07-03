@@ -1,0 +1,239 @@
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+ErrorDocument 404 /error-404.html
+ErrorDocument 403 /error-403.html
+<Files .zip>
+    Order allow,deny
+    Deny from all
+</Files>
+<Files "clientPrivate.pem">  
+  Order Allow,Deny
+  Deny from all
+</Files>
+<Files "composer.json">  
+  Order Allow,Deny
+  Deny from all
+</Files>
+<Files "composer.lock">  
+  Order Allow,Deny
+  Deny from all
+</Files>
+<Files "clientPulic.pem">  
+  Order Allow,Deny
+  Deny from all
+</Files>
+<Files "serverPrivate.pem">  
+  Order Allow,Deny
+  Deny from all
+</Files>
+<Files "serverPublic.pem">  
+  Order Allow,Deny
+  Deny from all
+</Files>
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+</IfModule>
+RewriteCond %{THE_REQUEST} \.php [NC]
+RewriteRule \.php$ - [F]
+RewriteRule ^id$ id.php [L]
+
+RewriteRule ^reffer/([A-Za-z0-9-]+) views/auth/reffer.php?ref=$1 [L]
+RewriteRule ^verify/([A-Za-z0-9-]+)$ views/auth/verify.php?token=$1 [L]
+RewriteRule ^home$ index.php [L]
+RewriteRule ^login/google$ models/client/google.php [L]
+RewriteRule ^login$ views/auth/login.php [L]
+RewriteRule ^forgot-password$ views/auth/forgot-password.php [L]
+RewriteRule ^reset-password/([a-zA-Z0-9_-]+)$ views/auth/reset-password.php?token=$1 [L]
+RewriteRule ^logout$ views/auth/logout.php [L]
+RewriteRule ^register$ views/auth/register.php [L]
+RewriteRule ^bot.php bot.php [L]
+RewriteRule ^doilacloitoken$ models/cloudvps/token.php [L]
+
+#IONCUBE
+RewriteRule ^ioncube$ views/ioncube/index.php [L]
+#CRONJOB
+RewriteRule ^cronjob$ views/cronjob/index.php [L]
+RewriteRule ^user/history/cronjob$ views/cronjob/history.php [L]
+#VPS
+RewriteRule ^cloudvps/([A-Za-z0-9-]+)$ views/cloudvps/dangky.php?id=$1 [L]
+RewriteRule ^user/history/vps$ views/cloudvps/history.php [L]
+RewriteRule ^user/history/platinum$ views/cloudvps/historyplatinum.php [L]
+RewriteRule ^user/history/cheap$ views/cloudvps/historycheap.php [L]
+RewriteRule ^cloudvps views/cloudvps/index.php [L]
+RewriteRule ^user/history/vps/dashboard/([A-Za-z0-9-]+)$ views/cloudvps/dashboard.php?id=$1 [L]
+RewriteRule ^user/history/vps/platinum/([A-Za-z0-9-]+)$ views/cloudvps/dashboardplatinum.php?id=$1 [L]
+RewriteRule ^user/history/vps/cheap/([A-Za-z0-9-]+)$ views/cloudvps/dashboardcheap.php?id=$1 [L]
+
+RewriteRule ^cron/cloudvps/noti$ models/cron/cloudvps/noti.php [L]
+RewriteRule ^cron/cloudvps/expired$ models/cron/cloudvps/expired.php [L]
+RewriteRule ^cron/cloudvps/delete$ models/cron/cloudvps/delete.php [L]
+RewriteRule ^vps/order$ views/vps/order.php [L]
+RewriteRule ^api/v1/cloudvps/plan$ models/cloudvps/plan.php [L]
+RewriteRule ^api/v1/cloudvps/addon$ models/cloudvps/addon.php [L]
+RewriteRule ^api/v1/cloudvps/os$ models/cloudvps/os.php [L]
+
+#HOSTING
+RewriteRule ^hosting$ views/hosting/index.php [L]
+RewriteRule ^hosting/$ views/hosting/index.php [L]
+RewriteRule ^hosting/([A-Za-z0-9-]+)$ views/hosting/hostings.php?id=$1 [L]
+RewriteRule ^user/history/hosting$ views/hosting/history.php [L]
+RewriteRule ^user/history/hosting/dashboard/([A-Za-z0-9-]+)$ views/hosting/dashboard.php?id=$1 [L]
+
+RewriteRule ^cron/hosting/expired$ models/cron/hosting/expired.php [L]
+RewriteRule ^cron/hosting/remove$ models/cron/hosting/remove.php [L]
+RewriteRule ^cron/hosting/extend$ models/cron/hosting/extend.php [L]
+
+#DESIGN
+RewriteRule ^design views/design/index.php [L]
+RewriteRule ^user/history/hosting$ views/hosting/history.php [L]
+
+#BLOG
+RewriteRule ^blogs$ views/blog/index.php [L]
+RewriteRule ^blog/([A-Za-z0-9-]+)$ views/blog/view.php?slug=$1 [L]
+#OTHER
+RewriteRule ^contact$ views/contact/index.php [L]
+RewriteRule ^privacy-policy$ views/contact/privacy.php [L]
+RewriteRule ^terms-condition$ views/contact/terms.php [L]
+#PRODUCT
+RewriteRule ^user/favorites$ views/product/favorites.php [L]
+RewriteRule ^user/product$ views/profile/product.php [L]
+RewriteRule ^user/product/upload$ views/profile/product-upload.php [L]
+RewriteRule ^user/product/edit/([A-Za-z0-9-]+)$ views/profile/product-edit.php?id=$1 [L]
+RewriteRule ^product/([A-Za-z0-9-]+)$ views/product/product.php?id=$1 [L]
+RewriteRule ^services$ views/product/services.php [L]
+RewriteRule ^user/history/product$ views/product/history.php [L]
+#PROFILE
+RewriteRule ^seller/([A-Za-z0-9-]+)$ views/product/seller.php?id=$1 [L]
+RewriteRule ^user/author-form$ views/profile/from.php [L]
+RewriteRule ^user/profile$ views/profile/index.php [L]
+RewriteRule ^user/withdraw$ views/profile/withdraw.php [L]
+RewriteRule ^user/balance$ views/profile/balance.php [L]
+RewriteRule ^user/log$ views/profile/log.php [L]
+RewriteRule ^user/dashboard$ views/profile/dashboard.php [L]
+RewriteRule ^user/change-password$ views/profile/change-password.php [L]
+RewriteRule ^user/security$ views/profile/security.php [L]
+RewriteRule ^bank$ views/deposit/index.php [L]
+RewriteRule ^card$ views/deposit/card.php [L]
+#API-DOCUMENT
+RewriteRule ^api-document$ views/apidocs/index.php [L]
+
+
+RewriteRule ^cron/deposit/check$ models/cron/bank.php [L]
+RewriteRule ^api/deposit/card$ models/callback/card.php [L]
+
+
+RewriteRule ^api/v1/order/cron$ handle/cronjob/order.php [L]
+RewriteRule ^api/v1/update/cron$ handle/cronjob/update.php [L]
+
+
+
+RewriteRule ^affiliates$ views/affiliate/index.php [L]
+
+RewriteRule ^model/login$ models/client/login.php [L]
+RewriteRule ^model/ioncube$ models/client/ioncube.php [L]
+RewriteRule ^model/seller/withdraw$ models/client/sellerwithdraw.php [L]
+RewriteRule ^model/register$ models/client/register.php [L]
+RewriteRule ^model/favorite$ models/client/favorite.php [L]
+RewriteRule ^model/reviews$ models/client/reviews.php [L]
+RewriteRule ^model/total/cash$ models/client/totalcash.php [L]
+RewriteRule ^model/order/product$ models/client/product.php [L]
+RewriteRule ^model/forgotpassword$ models/client/forgotpasword.php [L]
+RewriteRule ^model/update/info$ models/client/updateinfo.php [L]
+RewriteRule ^model/update/captcha$ models/client/updatecaptcha.php [L]
+RewriteRule ^model/update/features$ models/client/features.php [L]
+RewriteRule ^model/update/password$ models/client/updatepassword.php [L]
+RewriteRule ^model/withdraw$ models/client/withdraw.php [L]
+RewriteRule ^model/authenticator$ models/client/authenticator.php [L]
+RewriteRule ^model/card$ models/client/card.php [L]
+RewriteRule ^model/action/hosting$ models/client/actionhosting.php [L]
+RewriteRule ^model/action/vps$ models/client/actionvps.php [L]
+RewriteRule ^api/license$ models/client/license.php [L]
+RewriteRule ^libs/mails/notification$ libs/mails/notification.php [L]
+RewriteRule ^model/order/cloudvps$ models/client/buycloudvps.php [L]
+RewriteRule ^model/order/hosting$ models/client/buyhosting.php [L]
+RewriteRule ^model/order/cronjob$ models/client/buycronjob.php [L]
+RewriteRule ^model/update/cron$ models/client/updatecron.php [L]
+RewriteRule ^model/modal/cron/edit$ models/client/modal/cronedit.php [L]
+RewriteRule ^model/modal/cron/extend$ models/client/modal/cronextend.php [L]
+
+RewriteRule ^model/admin/delete$ models/admin/delete.php [L]
+RewriteRule ^model/admin/vps$ models/admin/vps.php [L]
+RewriteRule ^model/admin/update$ models/admin/update.php [L]
+RewriteRule ^model/admin/updates$ models/admin/updates.php [L]
+RewriteRule ^model/admin/withdraw$ models/admin/withdraw.php [L]
+RewriteRule ^model/admin/withdraw-product$ models/admin/withdraw-product.php [L]
+RewriteRule ^model/admin/host$ models/admin/host.php [L]
+
+RewriteRule ^cpanel/blog/category$ cpanel/views/blog/category.php [L]
+RewriteRule ^cpanel/blog/category/update/([0-9]+)$ cpanel/views/blog/update-category.php?id=$1 [L]
+RewriteRule ^cpanel/blog/add$ cpanel/views/blog/blog-add.php [L]
+RewriteRule ^cpanel/blog/list$ cpanel/views/blog/blog-list.php [L]
+RewriteRule ^cpanel/blog/list/update/([0-9]+)$ cpanel/views/blog/blog-update.php?id=$1 [L]
+
+RewriteRule ^cpanel/home$ cpanel/index.php [L]
+RewriteRule ^cpanel/logs$ cpanel/views/history/logs.php [L]
+RewriteRule ^cpanel/transactions$ cpanel/views/history/transactions.php [L]
+RewriteRule ^cpanel/recharge/card$ cpanel/views/recharge/card.php [L]
+RewriteRule ^cpanel/recharge/card/config$ cpanel/views/recharge/card-config.php [L]
+RewriteRule ^cpanel/recharge$ cpanel/views/recharge/bank.php [L]
+RewriteRule ^cpanel/recharge/bank/config$ cpanel/views/recharge/config.php [L]
+RewriteRule ^cpanel/recharge/bank/edit/([0-9]+)$ cpanel/views/recharge/edit.php?id=$1 [L]
+RewriteRule ^cpanel/users/list$ cpanel/views/users/index.php [L]
+RewriteRule ^cpanel/user/edit/([0-9]+)$ cpanel/views/users/edit.php?id=$1 [L]
+RewriteRule ^cpanel/promotions$ cpanel/views/recharge/promotions.php [L]
+RewriteRule ^cpanel/coupons$ cpanel/views/recharge/coupons.php [L]
+RewriteRule ^cpanel/coupon/edit/([0-9]+)$ cpanel/views/recharge/edit-coupon.php?id=$1 [L]
+RewriteRule ^cpanel/affiliate/history$ cpanel/views/affiliate/history.php [L]
+RewriteRule ^cpanel/affiliate/withdraw$ cpanel/views/affiliate/withdraw.php [L]
+RewriteRule ^cpanel/affiliate/config$ cpanel/views/affiliate/config.php [L]
+
+RewriteRule ^cpanel/cron/config$ cpanel/views/cronjob/config.php [L]
+RewriteRule ^cpanel/cron/server$ cpanel/views/cronjob/server.php [L]
+RewriteRule ^cpanel/cron/server/edit/([0-9]+)$ cpanel/views/cronjob/edit-server.php?id=$1 [L]
+
+RewriteRule ^cpanel/vps/config$ cpanel/views/vps/config.php [L]
+RewriteRule ^cpanel/vps/plan$ cpanel/views/vps/plan.php [L]
+RewriteRule ^cpanel/vps/plan/edit/([0-9]+)$ cpanel/views/vps/edit-plan.php?id=$1 [L]
+RewriteRule ^cpanel/vps/addon$ cpanel/views/vps/addon.php [L]
+RewriteRule ^cpanel/vps/addon/edit/([0-9]+)$ cpanel/views/vps/edit-addon.php?id=$1 [L]
+RewriteRule ^cpanel/vps/history$ cpanel/views/vps/history.php [L]
+RewriteRule ^cpanel/vps/platinum/history$ cpanel/views/vps/historyplatinum.php [L]
+RewriteRule ^cpanel/vps/history/edit/([0-9]+)$ cpanel/views/vps/edit-history.php?id=$1 [L]
+RewriteRule ^cpanel/vps/platinum/history/edit/([0-9]+)$ cpanel/views/vps/edit-history-platinum.php?id=$1 [L]
+
+
+RewriteRule ^cpanel/design/config$ cpanel/views/design/config.php [L]
+RewriteRule ^cpanel/hosting/add-host$ cpanel/views/hosting/add-hosting.php [L]
+
+RewriteRule ^cpanel/hosting/server$ cpanel/views/hosting/whm-list.php [L]
+RewriteRule ^cpanel/hosting/server/edit/([0-9]+)$ cpanel/views/hosting/whm-edit.php?id=$1 [L]
+RewriteRule ^cpanel/hosting/package$ cpanel/views/hosting/package.php [L]
+RewriteRule ^cpanel/hosting/package/edit/([0-9]+)$ cpanel/views/hosting/package-edit.php?id=$1 [L]
+RewriteRule ^cpanel/hosting/history$ cpanel/views/hosting/history.php [L]
+RewriteRule ^cpanel/hosting/history/edit/([0-9]+)$ cpanel/views/hosting/history-edit.php?id=$1 [L]
+
+RewriteRule ^cpanel/cron/order$ cpanel/views/cronjob/order.php [L]
+RewriteRule ^cpanel/cron/order/edit/([0-9]+)$ cpanel/views/cronjob/edit-order.php?id=$1 [L]
+RewriteRule ^cpanel/cron/config$ cpanel/views/cronjob/config.php [L]
+
+RewriteRule ^cpanel/product/categories$ cpanel/views/product/list-categories.php [L]
+RewriteRule ^cpanel/product/config$ cpanel/views/product/config.php [L]
+RewriteRule ^cpanel/product/withdraw$ cpanel/views/product/withdraw.php [L]
+RewriteRule ^cpanel/product/categories/edit/([0-9]+)$ cpanel/views/product/edit-categories.php?id=$1 [L]
+RewriteRule ^cpanel/product/orders$ cpanel/views/product/orders.php [L]
+RewriteRule ^cpanel/product/list$ cpanel/views/product/list-products.php [L]
+RewriteRule ^cpanel/product/list/edit/([0-9]+)$ cpanel/views/product/edit-products.php?id=$1 [L]
+
+RewriteRule ^cpanel/theme$ cpanel/views/system/theme.php [L]
+RewriteRule ^cpanel/settings$ cpanel/views/system/settings.php [L]
+
+RewriteRule ^api/cron/profile$ models/client/apicron/profile.php [L]
+RewriteRule ^api/cron/server$ models/client/apicron/server.php [L]
+RewriteRule ^api/cron/create$ models/client/apicron/create.php [L]
+RewriteRule ^api/cron/history$ models/client/apicron/history.php [L]
+RewriteRule ^api/cron/checkhistory$ models/client/apicron/checkhistory.php [L]
+RewriteRule ^api/cron/action$ models/client/apicron/action.php [L]
+

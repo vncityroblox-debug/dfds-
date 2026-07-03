@@ -1,0 +1,6 @@
+vendor/
+.env
+.agents
+.gemini
+*.log
+*.sql

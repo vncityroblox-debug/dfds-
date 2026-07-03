@@ -1,0 +1,8 @@
+[14-Mar-2025 20:39:59 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: User shoprdd1_khangapi already has more than 'max_user_connections' active connections in /home/shoprdd1/public_html/classes/db.php:11
+Stack trace:
+#0 /home/shoprdd1/public_html/classes/db.php(11): mysqli_connect('localhost', 'shoprdd1_khanga...', 'shoprdd1_khanga...', 'shoprdd1_khanga...')
+#1 /home/shoprdd1/public_html/classes/db.php(93): DB->connect()
+#2 /home/shoprdd1/public_html/libs/init.php(12): DB->site('google_app_id')
+#3 /home/shoprdd1/public_html/views/cronjob/history.php(2): require_once('/home/shoprdd1/...')
+#4 {main}
+  thrown in /home/shoprdd1/public_html/classes/db.php on line 11

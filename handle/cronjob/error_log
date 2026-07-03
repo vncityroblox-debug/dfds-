@@ -1,0 +1,276 @@
+[22-May-2025 20:23:30 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:31 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:31 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:32 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:32 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:33 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:34 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:34 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/order.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/order.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/order.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:38 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/fxjnlxs/public_html/classes/db.php): Failed to open stream: No such file or directory in /home/fxjnlxs/public_html/libs/init.php on line 4
+[22-May-2025 20:23:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/fxjnlxs/public_html/classes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fxjnlxs/public_html/libs/init.php:4
+Stack trace:
+#0 /home/fxjnlxs/public_html/handle/cronjob/update.php(2): require_once()
+#1 {main}
+  thrown in /home/fxjnlxs/public_html/libs/init.php on line 4

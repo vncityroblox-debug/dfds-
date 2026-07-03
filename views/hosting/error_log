@@ -1,0 +1,40 @@
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 45
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 45
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 58
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 60
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 68
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 68
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 72
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 143
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 143
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 144
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 145
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 151
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 160
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 163
+[20-May-2025 17:47:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 188
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 45
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 45
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 58
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 60
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 68
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 68
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 72
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 143
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 143
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 144
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 145
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/fxjnlxs/public_html/classes/functions.php on line 184
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 151
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 160
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 163
+[21-May-2025 22:28:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type bool in /home/fxjnlxs/public_html/views/hosting/hostings.php on line 188
